@@ -1,7 +1,7 @@
 # Amazon_Vine_Analysis
 ![Image_1](https://github.com/walzfran/Amazon_Vine_Analysis/blob/main/Images/Vine-Header.png)
 
-#### Overview of the Analysis
+## Overview of the Analysis
 ##### The purpose of my Amazon Vine Analysis is to use PySpark to perform the ETL process and extract information from a dataset of Amazon reviews. The dataset contained both paid and unpaid reviews and we are going to look at the breakdown of them. To accomplish this task I connected the AWS RDS and linked it to PGAdmin and then used PySpark to determine if there was bias towards Vine member reveiws. 
 
 ###### Below is an image showing the the datasets were successful uploading information to PGAdmin 
@@ -11,7 +11,7 @@
 ![Image_3](https://github.com/walzfran/Amazon_Vine_Analysis/blob/main/Images/customers_table.png)
 ![Image_4](https://github.com/walzfran/Amazon_Vine_Analysis/blob/main/Images/product_table.png)
 
-#### Results of the Analysis
+## Results of the Analysis
 
 ![Image_5](https://github.com/walzfran/Amazon_Vine_Analysis/blob/main/Images/pyspark_totals.png)
 
@@ -24,7 +24,7 @@
 ##### * What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 ##### As the image above shows, the percentage of 5 star reviews from Vine reviews is 35.4% and the percentage of 5 star reviews from non-Vine reveiws is 58.3%
 
-#### Summary 
+## Summary 
 ##### When looking at these results, it shows that there is not a positivity bias with Vine reviews for Beauty Products having higher star ratings as our data shows that there is a higher percentage of 5 star reviews coming from non-Vine reviews. One thing I thought was interesting was looking at the number of helpful votes. Below are two images the first showing the helpful votes from Vine reviews and the second showing helpful votes from non-Vine reviews. 
 
 ![Image_6](https://github.com/walzfran/Amazon_Vine_Analysis/blob/main/Images/Helpful_Vine.png)
